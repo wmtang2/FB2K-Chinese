@@ -20,8 +20,16 @@ Download: `foo_chinese_converter-v1.0.0-x64.fb2k-component`
 2. Select one or more tracks
 3. Right-click any metadata field
 4. Navigate to: **Tagging → Convert to Traditional Chinese** (or Simplified)
-5. The conversion runs in the background
+5. Review the conversion preview
 6. Save your changes
+
+### See It In Action
+
+![Context Menu Integration](screenshots/screenshot-01-context-menu.png)
+*Right-click context menu showing conversion options*
+
+![Tag Conversion Preview](screenshots/screenshot-02-tag-conversion-preview.png)
+*Before/after tag conversion preview showing actual transformations*
 
 ## Features
 
