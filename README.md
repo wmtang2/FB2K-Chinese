@@ -63,7 +63,9 @@ Found a bug? Have a feature request? Please open an [issue](https://github.com/w
 
 ## License
 
-[Specify your license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+You are free to use, modify, and distribute this software. Source code is not published, but the compiled component is provided as-is for use in foobar2000.
 
 ---
 
