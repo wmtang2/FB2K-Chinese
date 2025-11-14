@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\sdk_entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\tag_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\ui_context_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\ui_preview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\ui_preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\src\cue_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Ricky\Development\FB2K-Chinese\fb2k_component\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3AFB8A24-35A3-3C68-86AE-F7789BFD1E83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

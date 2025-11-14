@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: E:/Ricky/Development/FB2K-Chinese/fb2k_component
+# Build directory: E:/Ricky/Development/FB2K-Chinese/build-win64
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(fb2k_chinese_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/Debug/fb2k_chinese_test.exe")
+  set_tests_properties(fb2k_chinese_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;332;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(fb2k_chinese_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/Release/fb2k_chinese_test.exe")
+  set_tests_properties(fb2k_chinese_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;332;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(fb2k_chinese_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/MinSizeRel/fb2k_chinese_test.exe")
+  set_tests_properties(fb2k_chinese_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;332;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(fb2k_chinese_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/RelWithDebInfo/fb2k_chinese_test.exe")
+  set_tests_properties(fb2k_chinese_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;332;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+else()
+  add_test(fb2k_chinese_tests NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(tag_processor_sdk_integration_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/Debug/test_tag_processor_sdk_integration.exe")
+  set_tests_properties(tag_processor_sdk_integration_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;333;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(tag_processor_sdk_integration_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/Release/test_tag_processor_sdk_integration.exe")
+  set_tests_properties(tag_processor_sdk_integration_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;333;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(tag_processor_sdk_integration_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/MinSizeRel/test_tag_processor_sdk_integration.exe")
+  set_tests_properties(tag_processor_sdk_integration_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;333;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(tag_processor_sdk_integration_tests "E:/Ricky/Development/FB2K-Chinese/build-win64/RelWithDebInfo/test_tag_processor_sdk_integration.exe")
+  set_tests_properties(tag_processor_sdk_integration_tests PROPERTIES  _BACKTRACE_TRIPLES "E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;333;add_test;E:/Ricky/Development/FB2K-Chinese/fb2k_component/CMakeLists.txt;0;")
+else()
+  add_test(tag_processor_sdk_integration_tests NOT_AVAILABLE)
+endif()

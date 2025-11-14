@@ -1,0 +1,10 @@
+^E:\RICKY\DEVELOPMENT\FB2K-CHINESE\BUILD-WIN32\CMAKEFILES\3DA149F3F39A20E318AF1C459811EB07\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Ricky/Development/FB2K-Chinese/fb2k_component -BE:/Ricky/Development/FB2K-Chinese/build-win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Ricky/Development/FB2K-Chinese/build-win32/FB2K-Chinese.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

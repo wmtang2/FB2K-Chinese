@@ -1,0 +1,7 @@
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/fb2k_chinese_component.dir
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/fb2k_chinese_test.dir
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/test_opencc_basic.dir
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/test_tag_processor_sdk_integration.dir
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/RUN_TESTS.dir
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/ALL_BUILD.dir
+E:/Ricky/Development/FB2K-Chinese/build-win64/CMakeFiles/ZERO_CHECK.dir

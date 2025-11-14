@@ -51,6 +51,7 @@ First stable release of the Chinese Character Converter component for foobar2000
 - Primarily handles mainland Simplified → Taiwan Traditional conversion
 - Other variants available via conversion chain
 - Manual operation (right-click in metadata editor)
+- **CUE Files**: Tags are saved to foobar2000 database, but may not write back to .cue files due to foobar2000 limitations. See workarounds in [CUE_FILE_METADATA_FEATURE.md](CUE_FILE_METADATA_FEATURE.md)
 
 ## Technical Details
 
