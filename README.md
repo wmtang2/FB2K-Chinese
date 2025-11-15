@@ -5,10 +5,10 @@ A foobar2000 v2.1+ component that converts music metadata between Simplified and
 ## Installation
 
 ### For 32-bit foobar2000
-Download: `foo_chinese_converter-v1.1.0-x86.fb2k-component`
+Download: `foo_chinese_converter-v1.2.0-x86.fb2k-component`
 
 ### For 64-bit foobar2000
-Download: `foo_chinese_converter-v1.1.0-x64.fb2k-component`
+Download: `foo_chinese_converter-v1.2.0-x64.fb2k-component`
 
 **Installation Methods:**
 1. **Easiest**: Drag the `.fb2k-component` file into the foobar2000 window
@@ -36,6 +36,7 @@ Download: `foo_chinese_converter-v1.1.0-x64.fb2k-component`
 - ✅ Bidirectional conversion: Simplified ↔ Traditional Chinese
 - ✅ Works on any metadata field (artist, album, title, etc.)
 - ✅ **CUE file persistence**: Tags now save directly to .cue files (v1.1+)
+- ✅ **GBK Codepage Support**: Works on all Windows codepages - UTF-8, GBK, GB2312, Big5 (v1.2+)
 - ✅ Non-blocking async operations (UI stays responsive)
 - ✅ Batch operations (convert multiple tracks at once)
 - ✅ Multiple Traditional Chinese variants (Taiwan, Hong Kong, etc.)
@@ -70,5 +71,5 @@ You are free to use, modify, and distribute this software. Source code is not pu
 
 ---
 
-**Version:** 1.1.0  
-**Last Updated:** November 12, 2025
+**Version:** 1.2.0  
+**Last Updated:** November 14, 2025
